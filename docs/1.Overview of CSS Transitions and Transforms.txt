@@ -37,3 +37,17 @@ z-axis
 
 For all transform
 https://goo.gl/4eR3XV
+
+=====================
+1.3 CSS transitions
+=====================
+
+Transitions are one of the ways we can create animation with CSS.
+
+In the file we are going to see a button that transition on hover. 
+
+Transitions can be: 
+- set separatly
+transition: background 0.5s ease-in, transform 0.5s ease-in-out;
+- be delayed (second number is the delay)
+transition: background 0.5s ease-in, transform 0.5s 0.25s ease-in-out;
