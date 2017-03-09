@@ -1,0 +1,19 @@
+/* Animation Basics */
+body {
+	background-color: #D8E8FA;
+}
+
+.wrapper {
+	margin: 2em auto 2em auto;
+	width:350px;
+	position:relative;
+}
+
+/* translate:(x-axis, y-axis) */
+/* we can use diferent transforms in the same line but the order affects how the element will display on the screen */
+.blue_robot {
+	transform: rotate(45deg) translate(100px, 50px) skew(20deg) scale(2);
+}
+
+
+
