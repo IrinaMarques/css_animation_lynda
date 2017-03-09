@@ -1,0 +1,12 @@
+=========================
+1.1 CSS Transform Basics
+=========================
+
+CSS Transforms 
+- change the shape and position of the affectes content by modifying the coordinate space
+- do not disrupt the normal document flow
+
+Translate uses % but if we use this it takes % of is own width.
+
+Transforms also have a stacking order, which means the order you apply each transformation in will affect how the overall effect looks.
+
