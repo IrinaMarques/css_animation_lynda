@@ -1,0 +1,23 @@
+
+body {
+	background-color: #D8E8FA;
+}
+
+.wrapper {
+	margin: 2em auto 2em auto;
+	/* prespective aplly to the parent */
+	perspective: 1000px;
+}
+
+img {
+	display:block;
+	margin: 0 auto;
+
+	/* transform aplly to the childreen */
+	/*transform: rotateY(45deg) rotateX(20deg); */
+
+	/* move objects with translate 3d - x-axis,y-axis,z-axis */
+	transform: translate3d(100px, 200px, -100px);
+}
+
+

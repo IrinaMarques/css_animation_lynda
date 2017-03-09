@@ -10,3 +10,30 @@ Translate uses % but if we use this it takes % of is own width.
 
 Transforms also have a stacking order, which means the order you apply each transformation in will affect how the overall effect looks.
 
+=========================
+1.2 Simple 3D Transforms
+=========================
+
+Getting into 3D in CSS can be a simple as rotating something around the X or Y-axis.
+
+Two places to add perspective:
+- in the transform rule itself
+- the parent element
+
+Perspective length can be set:
+- pixels 
+- ems 
+
+Represents the approximate distance of how far away you are from that transforming element. 
+- Lower values show more drastic effect 
+- Higher values show a flatter effect.
+
+Move 3d
+transform: translate3d(x-axis,y-axis,z-axis)
+
+z-axis 
+- high numbers - closer
+- low numbers - far
+
+For all transform
+https://goo.gl/4eR3XV
