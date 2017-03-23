@@ -47,3 +47,28 @@ All iterations of the animation are played in the reverse direction. Keyframes p
 The animation direction is alternated with each iteraction of the animation. Keyframes play from start to end, then end to start, and continue alternating. 
 - alternate-reverse -
 The animation direction is alternated with each iteraction of the animation. Keyframes play from end to start, then start to end, and continue alternating.
+
+================================
+2.4 Timing functions and easing
+================================
+
+The easing you choose has the power to greatly effect the way your animation comes across.
+
+Easing is the way speed is distrbuted across the duration of our animation.
+
+- animation-timing-functions -
+predifined keywords
+cubic-bezier functions
+steps
+
+Predifined keywords:
+- ease: similar to ease-in-out
+- linear: same constant speed
+- ease-in: start slow
+- ease-out: start quick
+- ease-in-out: top speed at the middle of the animation
+
+Cubic-bezier(x1, y1, x2, y2) --> graph form
+
+http://cubic-bezier.com
+ 

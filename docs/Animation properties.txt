@@ -6,7 +6,8 @@ Keyframes:
 Properties:
 animation-name: *name of the keyframe* ;
 animation-duration: *time*;
-animation-timing-function: *behave during the duration*;
+animation-timing-function: *behave during the duration - ease|linear|ease-in|ease-out|ease-in-out*;
 animation-iteration-count: *times will play*;
 animation-delay: *time before the animation actually executes*;
 animation-fill-mode: *what to do outside the actual duration of its animation - none|backwards|forwards|both.*;
+animation-direction: *manipulate order that keyframes are executed - normal|reverse|alternate|alternate-reverse*;
