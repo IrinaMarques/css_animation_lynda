@@ -1,0 +1,27 @@
+
+body {
+	background-image: url('background.png');
+	background-size: cover;
+	background-position: 0px -250px;
+}
+
+.wrapper {
+	margin: 20em auto 2em auto;
+	width:80%;
+	position:relative;
+}
+
+/* aplly the keyframes animation to an element on our page */
+.robot {
+	animation-name: slide; /* name of the keyframe */ 
+	animation-duration: 2s; /* how long should take */
+	animation-timing-function: ease-in; /* behave during the duration */
+	animation-iteration-count: 1; /* how many times the animation play */
+}
+
+/* important to give it a name "slide" */
+/* keyframe rule option: from and to */
+@keyframes slide {
+	from { transform: translateX(0);} /* start exactly here he is */
+	to { transform: translateX(900px);}
+}

@@ -1,0 +1,26 @@
+======================
+2.1 Animation basics
+======================
+
+For any CSS keyframe animation you create you have to: 
+- define the animation (tell CSS what it is that should happen) 
+- assign that animation to a specific element or elements in your HTML
+
+The @keyframe block - @keyframe rule
+Keyframes are a list describing everything that should happen over the course of the animation: define the values for the animating properties at various points during the animation and any property that you'd like to see change over the course of one's cycle of an animation needs to be listed in your keyframes. 
+
+There are a few options available to us for how we can define each keyframe within our @keyframe rule.
+
+---
+
+@keyframe *name* {
+from { *start*; }
+to { *end*; }
+
+The element should have:
+animation-name: *the defined name of the keyframe*;
+animation-duration: *time of the animation*;
+animation-timing-function: *how will behave in the time set*;
+(have a default value)
+animation-iteration-count: *how many times the animation will play*;
+(have a default value)

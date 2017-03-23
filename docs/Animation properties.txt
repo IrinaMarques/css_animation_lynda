@@ -1,0 +1,9 @@
+@keyframe *name* { from: {*starting point*;} to {*ending point*}
+
+
+
+Properties:
+animation-name: *name of the keyframe* ;
+animation-duration: *time*;
+animation-timing-function: *behave during the duration*;
+animation-iteration-count: *times will play*;
