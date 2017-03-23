@@ -1,5 +1,6 @@
+Keyframes:
 @keyframe *name* { from: {*starting point*;} to {*ending point*}
-
+@keyframe *name* { % percentages { *animation*}
 
 
 Properties:
@@ -7,3 +8,5 @@ animation-name: *name of the keyframe* ;
 animation-duration: *time*;
 animation-timing-function: *behave during the duration*;
 animation-iteration-count: *times will play*;
+animation-delay: *time before the animation actually executes*;
+animation-fill-mode: *what to do outside the actual duration of its animation - none|backwards|forwards|both.*;

@@ -24,3 +24,13 @@ animation-timing-function: *how will behave in the time set*;
 (have a default value)
 animation-iteration-count: *how many times the animation will play*;
 (have a default value)
+
+================================================
+2.2 Use animation-delay and animation-fill-mode
+================================================
+
+The animation-delay is the time will wait before the animation executes.
+The animation-fill-mode will fill with what to do outside the actual duration of its animation and have four values: none, backwards, forwards and both.
+
+Keyframes are defined (from to) and also in percentages.
+
