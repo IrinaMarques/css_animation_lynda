@@ -34,3 +34,16 @@ The animation-fill-mode will fill with what to do outside the actual duration of
 
 Keyframes are defined (from to) and also in percentages.
 
+=============================
+2.3 Use animation-direction
+=============================
+
+Animation-direction let's us manipulate what order our keyframes are executed in:
+- normal - 
+All iterations of the animation are played as specified. Keyframes play from start to end.
+- reverse - 
+All iterations of the animation are played in the reverse direction. Keyframes play end to start.
+- alternate - 
+The animation direction is alternated with each iteraction of the animation. Keyframes play from start to end, then end to start, and continue alternating. 
+- alternate-reverse -
+The animation direction is alternated with each iteraction of the animation. Keyframes play from end to start, then start to end, and continue alternating.
